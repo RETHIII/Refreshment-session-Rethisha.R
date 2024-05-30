@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background: wheat;
+}
+h1 {
+    color:black;
+}
+table {
+    width: 100px;
+    border: 2px solid;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, td, th {
+    border: 1px solid black;
+}
+  
+th {
+    height: auto;
+    background-color: rgb(179, 190, 169);
+    font: bold;
+    padding: 10px;
+}
+td {
+    text-align: left;
+    padding: 15px;
+}
+tr:nth-child(even) { 
+    background-color: whitesmoke; 
+}
+tr {
+    background-color: whitesmoke;
+} 
